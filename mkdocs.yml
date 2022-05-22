@@ -2,3 +2,18 @@ site_name: Event Storming
 
 nav:
   - index.md
+  - sections/terminology.md
+  - sections/flow.md
+  - sections/building_blocks.md
+  - sections/phases.md
+  
+repo_url: https://github.com/phftavares/event-storming
+repo_name: phftavares/event-storming
+
+plugins:
+  - git-revision-date
+
+theme:
+  name: material
+  features:
+    - toc.integrate
