@@ -15,5 +15,6 @@ plugins:
 
 theme:
   name: material
+  language: pt-BR
   features:
     - toc.integrate
