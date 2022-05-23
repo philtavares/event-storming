@@ -33,7 +33,7 @@ Nessa etapa fazemos perguntas como:
 
 ![Modelando ecossistema mais amplo em torno dos eventos](../images/model_out_the_broader_ecosystem.png "Modelando ecossistema mais amplo em torno dos eventos")
 
-## Categorização simples do eventos
+## Categorização simples dos eventos
 Neste ponto, todos os eventos detalhados e suas partes relacionadas devem ser modelados e conforme você se prepara para passar para a categorização.
 
 A primeira categorização é conhecida como agregados. Estes são os substantivos, ou as coisas, sobre as quais os eventos operam. O DDD também tem um conceito de entidades, que você pode considerar como o próximo nível abaixo dos agregados. Tratar o agregado e a entidade como o mesmo ajuda a simplificar as coisas, tornando mais fácil para as pessoas entenderem. No exemplo de processo de pedido, Inventário, Pedido, Oferta são todos exemplos de agregados. São as coisas sobre as quais os eventos estão operando.
