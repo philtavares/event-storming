@@ -1,2 +1,12 @@
 # Terminologia
-![Terminologia](../images/terminology.png "Terminologia") 
+| Sticker | Descrição |
+|-------|-----------|
+| ![Domain Event](../images/domain_event.png "Domain Event") | Os eventos são atividades que precisam acontecer dentro da nossa solução final. Isto quer dizer tanto as já existentes quanto novas no sistema proposto. <br><br>Por convenção, os eventos são conjugados no passado, como por exemplo: Proposta Criada, Apólice Emitida, Cadastro Criado, Pagamento Criado, Pagamento Finalizado, Usuário Cadastrado e etc. |
+| ![User](../images/user.png "User") | Uma pessoa que executa um comando por meio de uma visão.|
+| ![Command](../images/command.png "Command") | Comandos representam uma ação, interação ou decisão que leva ao evento com o qual está relacionado. Considere que é algo realizado por um usuário ou sistema externo. |
+| ![Policy](../images/policy.png "Policy") | As políticas indicam a decisão a ser tomada, que dispararão novos comandos e eventos. Ela é um processo de negócio no fluxo. |
+| ![External System](../images/external_system.png "External System") | Sistemas externos pode ser qualquer coisa que o time não tenha controle. |
+| ![Read Model](../images/read_model.png "Read Model") | Pode ser qualquer parte de uma interface do usuário ou registro de informações que o usuário precisa para tomar uma decisão ou executar uma ação. |
+| ![Aggregate](../images/aggregate.png "Aggregate") | As agregações são conjuntos de dados (Entidades e Value Objects) que estão relacionadas e que podemos ver como uma unidade. <br><br>Descrevemos as agregações usando um substantivo e as representamos com um sticky note no topo do fluxo e uma elipse delimitando os eventos, comandos e demais elementos que com ela se associam.|
+| ![Issue](../images/issue.png "Issue") | Tópicos obscuros ou duvidas que surgirem durante a sessão. |
+| ![Bounded Context](../images/bounded_context.png "Bounded Context") | Representam os limites do sistema, agrupando agreggates e identificando como estes limites se comunicam. Podemos fazer uma analogia com os "módulos" de um sistema. "
