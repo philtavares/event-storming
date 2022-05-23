@@ -4,9 +4,11 @@ Event Storming é uma técnica de design rápido que engaja especialistas do dom
 
 **Principais vantagens**:
 
--   Acelera a aprendizagem de grupo, aprende-se em poucas horas o que geralmente poderia levar dias ou semanas    
--   Promove o engajamento entre os especialistas de domínio e o time técnico    
--   Ao final, é possível ter esboços do que serão futuros testes de aceitação, interfaces de serviços, atores envolvidos
+- **Rápido**: Event Storming reduz o tempo necessário para criar um modelo de domínio de negócios abrangente. Com esta técnica, você pode mapear um processo de negócios em horas durante um único workshop. Assim, em um dia você pode alcançar resultados que costumavam levar semanas.
+- **Prático**: Event Storming resulta em um modelo totalmente comportamental que pode ser implementado e validado rapidamente. Em vez de levar a um processo abstrato de modelagem de dados, o Event Storming desenvolve uma compreensão compartilhada do problema que está sendo resolvido, descobrindo possíveis soluções de maneira rápida e eficaz.
+- **Direto e simples**: Em vez de usar diagramas UML complexos, o Event Storming divide o processo em termos simples que os interessados ​​técnicos e não técnicos podem entender.
+- **Cativante**: Event Storming é uma maneira divertida e envolvente de criar um modelo de domínio. Devido à abordagem prática, cada participante é convidado a compartilhar seu conhecimento sobre o domínio. Isso leva a uma grande interação e resulta em uma compreensão mais completa do processo.
+- **Discussões**: Como todas as partes interessadas podem participar, o Event Storming é uma maneira ideal de iniciar uma discussão para descobrir lacunas, resolver o mal-entendido e desenvolver novas ideias e soluções. Ele reúne o poder de especialistas de domínio e especialistas técnicos e leva a um modelo rico e revolucionário do domínio.
 
 ## O que não é Event Storming?
 Apesar de ter vários conceitos em comum com DDD (Domain Driven Design) e Event Sourcing, o Event Storming não é voltado apenas para desenvolvimento de software. A ideia é que todos os envolvidos participem, para gerar uma linguagem que possa ser usada tanto pelos desenvolvedores quanto pelos detentores do conhecimento de negócios.
